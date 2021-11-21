@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html, body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #30336b;
+    color: white;
+}
+body {
+    margin: 0;
+}
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hiragana {
+    font-size: 100px;
+}
+
+.reponse {
+    font-size: 30px;
+}
+
+#response {
+    width: 25%;
+    height: 12.5%;
+    background: transparent;
+    background-color: #4834d4;
+    border: transparent;
+    font-size: 100px;
+    text-align: center;
+    border: solid 5px #686de0;
+    color: white;
+}
